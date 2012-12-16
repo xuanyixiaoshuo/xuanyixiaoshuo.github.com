@@ -1,67 +1,21 @@
-body{
-    background:#eee;
+body {
+    background:#e1e1e1;
 }
-
-.main{
-    position:relative;
-    overflow: hidden;
-    width:650px;
-    padding:40px;
-    padding-left:150px;
-    margin:0 auto;
-    margin-top:45px;
-    background:white;
+.main {
+    width:800px;
+    margin:45px auto 0 auto;
+    background:#fff;
+    font-size:12px;
+    font-family:"Microsoft Yahei", simsun, arial;
     line-height: 2;
-    font-size:16px;
-    font-family: "Microsoft Yahei",simsun,arial;
 }
-
-.fz12{
+.fz12 {
     font-size:12px;
 }
-
-.headline{
+.headline {
     margin:30px 0;
 }
-
-.page-side{
-font-size:11px;
-color:#aaa;
-border-right:1px solid #ccc;
-padding:20px 10px 0 10px;
-text-align: right;
-position: absolute;
-width:15px;
-height:100%;
-padding-right:20px;
-left:2%;
-top:0;
-_margin-left:-155px;
-text-align:center;
--webkit-text-size-adjust:none;
-}
-
-.page-side i{
-    font-family:arial;
-    font-size:7px
-}
-
-.links{
-    overflow: hidden;
-}
-
-.links a{
-    font-size: 12px;
-    width:33%;
-    float:left;
-}
-
-.chapter{
-    clear: both;
-    margin: 20px 0;
-}
-
-.qr-read{
+.qr-read {
     color:gray;
     text-align:center
 }
@@ -70,4 +24,97 @@ text-align:center;
     text-align: center;
     font-size:12px;
     border-top: 1px solid #E5E5E5;
+}
+.footer a {
+    margin:0 5px;
+}
+.footer a i {
+    margin-right:2px;
+}
+.extra {
+    width:800px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:45px;
+    overflow: hidden;
+    background: #fff;
+    text-align: center;
+}
+.fanke {
+    overflow: hidden;
+    padding:10px;
+    background:orange;
+    display:inline-block;
+}
+.books {
+    width:700px;
+    margin:0 auto;
+    padding-left:50px;
+    padding-right:50px;
+    padding-top:50px;
+    background:#fff;
+    overflow:hidden;
+}
+.book-item {
+    text-align: center;
+    width:25%;
+    padding:20px 0;
+    display: inline-block;
+}
+.book-item a {
+    display:inline-block;
+    color: #333;
+    font-size:12px;
+}
+.cover {
+    background:#dfd1a4;
+}
+.page {
+    position:relative;
+    overflow: hidden;
+    padding:40px;
+    padding-left:150px;
+}
+.page-side {
+    font-size:11px;
+    color:#aaa;
+    border-right:1px solid #ccc;
+    padding:20px 10px 0 10px;
+    text-align: right;
+    position: absolute;
+    width:15px;
+    height:100%;
+    padding-right:20px;
+    left:2%;
+    top:0;
+    _margin-left:-155px;
+    text-align:center;
+    -webkit-text-size-adjust:none;
+}
+.page-side i {
+    font-family:arial;
+    font-size:7px
+}
+.page-body {
+    font-size:16px;
+}
+.page-body p {
+    text-indent: 2em
+}
+.links {
+}
+.links a {
+    font-size: 12px;
+    color:black;
+    display:block;
+}
+.volume-name {
+    color:#7a0001;
+    font-size:18px;
+    font-family:"楷体";
+    text-align: center;
+    letter-spacing: 5px
+}
+.thumbnail {
+    border-color:#C5C5C5;
 }
