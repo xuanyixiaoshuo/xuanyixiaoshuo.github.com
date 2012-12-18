@@ -124,3 +124,14 @@ body {
     width:100px;
     height:147px;
 }
+
+#qr{
+    display:inline-block;
+    *display:inline;
+    *zoom:1;
+}
+
+img{
+}
+.navbar-fixed-top {_margin-bottom:0}
+.main{_margin-top:5px;}

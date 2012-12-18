@@ -66,13 +66,10 @@ sub {
   bottom: -0.25em;
 }
 
-img {
-  width: auto\9;
-  height: auto;
-  max-width: 100%;
-  vertical-align: middle;
-  border: 0;
-  -ms-interpolation-mode: bicubic;
+img{
+    border:0;
+    vertical-align: middle;
+    -ms-interpolation-mode: bicubic;
 }
 
 #map_canvas img,
@@ -5341,9 +5338,10 @@ a.thumbnail:hover {
 
 .thumbnail > img {
   display: block;
-  max-width: 100%;
-  margin-right: auto;
-  margin-left: auto;
+}
+
+*:first-child+html .thumbnail > img{
+    margin:0;
 }
 
 .thumbnail .caption {
